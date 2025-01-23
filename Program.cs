@@ -1,5 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
+// daniel wait 
+// assignment 3 class 413
+// this is an inventory management system 
 using System.Linq.Expressions;
 using Mission003Assignment3;
 
