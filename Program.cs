@@ -10,6 +10,7 @@ internal class Program
         bool exit = false;
         List<FoodItem> foodItems = new List<FoodItem>(); // List to store food items
         
+        // starts the program
         Console.WriteLine("Welcome to the Food Bank Inventory System.");
         while (!exit)
         {
@@ -23,6 +24,7 @@ internal class Program
                 "\n        Menu\n  1: Add Food Items\n  2: Delete Food Items\n  3: Print List of Current Food Items\n  4: Exit the Program");
             MenuItemInput = Console.ReadLine();
             
+            // option if they choose to add a food item
             if (MenuItemInput == "1")
             {
 
@@ -34,6 +36,7 @@ internal class Program
                 // error handeling for int
                 Console.WriteLine("Enter the quantity: ");
                 int quantity;
+                // checks for quanity
                 while (!int.TryParse(Console.ReadLine(), out quantity) || quantity <= 0)
                 {
                     Console.WriteLine("Invalid input. Please enter a positive integer for the quantity: ");
@@ -78,6 +81,7 @@ internal class Program
             }
             else if(MenuItemInput == "3")
             {
+                // lists the menu out of it
                 if (foodItems.Count == 0)
                 {
                     Console.WriteLine("No food items in inventory.\n");
@@ -92,6 +96,8 @@ internal class Program
                     Console.WriteLine();
                 }
             }
+            
+            // exits the program
             else if(MenuItemInput == "4")
             { 
                 exit = true;

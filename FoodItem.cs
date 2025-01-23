@@ -11,6 +11,7 @@ public class FoodItem
     // Constructor
     public FoodItem(string foodName, string category, int quantity, DateTime expirationDate)
     {
+        // sets basic fooditem variables
         FoodName = foodName;
         Category = category;
         Quantity = quantity;

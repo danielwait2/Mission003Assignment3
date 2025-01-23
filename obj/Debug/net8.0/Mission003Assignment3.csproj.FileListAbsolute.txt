@@ -12,3 +12,4 @@
 /Users/danielwait/RiderProjects/Mission003Assignment3/obj/Debug/net8.0/Mission003Assignment3.pdb
 /Users/danielwait/RiderProjects/Mission003Assignment3/obj/Debug/net8.0/Mission003Assignment3.genruntimeconfig.cache
 /Users/danielwait/RiderProjects/Mission003Assignment3/obj/Debug/net8.0/ref/Mission003Assignment3.dll
+/Users/danielwait/RiderProjects/Mission003Assignment3/obj/Debug/net8.0/Mission003Assignment3.sourcelink.json
